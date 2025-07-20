@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="icon" type="E:\Java_Full_Stack\Frontend\Day_7_Typing_Game\favicon.ico" href="favicon.ico">
+    <link rel="stylesheet" href="typing.css">
+</head>
+<body>
+    <h1> TYPING GAME</h1>
+    <h3 id="worddisplay"></h3>
+    <form action="" class="input">
+        <input type="text" value="">
+    </form>
+    <p>Time: <span id="timer">0</span> seconds</p>
+    <p>Count: <span id="counter">0</span></p>
+    <section>
+        <button onclick="startTimer()" >Start</button>
+        <button onclick="restartTimer()" >Restart</button>
+    </section>
+<div id="game-over" style="display: none;">
+  <p id="game-over-text"></p>
+  <button onclick="closeGameOver()">OK</button>
+</div>
+
+    <script src="typing.js"></script>
+</body>
+</html>
+
+
+ 
